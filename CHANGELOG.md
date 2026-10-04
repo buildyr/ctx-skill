@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 — unreleased
+## 0.1.0 — 2026-10-04
 - Per-project numbered context archive; threshold question and handoff via `/clear`; PreCompact backup.
 - Status line: project, last context number and colour-coded fill.
 - Archive search (`/ctx search`, `--all` for every project and the pins).

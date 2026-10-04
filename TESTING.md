@@ -10,6 +10,11 @@ tests/test-install.sh both   # install / re-install / uninstall / status line ha
 ```
 `both` runs the Python and the PowerShell implementation; use `python` or `pwsh` for one. The PowerShell runs need `pwsh` (`PWSH=/path/to/pwsh`).
 
+On Windows, run these from Git Bash with a real Python behind the name `python3`. The Microsoft Store shortcut of that name does not work; a bash function is enough:
+```bash
+python3() { "C:/Python314/python.exe" "$@"; }; export -f python3
+```
+
 ## 2. Windows smoke test
 
 ```powershell

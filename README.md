@@ -76,7 +76,12 @@ The archive deliberately lives outside your projects, in `~/.claude/ctx` (or `$C
 
 ## Install
 
-Download or clone the repository, then:
+Clone the repository (or download it), then run the installer from inside it:
+
+```bash
+git clone https://github.com/buildyr/ctx-skill.git
+cd ctx-skill
+```
 
 **Windows (PowerShell):**
 ```powershell

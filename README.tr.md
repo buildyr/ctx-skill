@@ -76,7 +76,12 @@ Arşiv bilerek projelerin dışında, `~/.claude/ctx` altında (ya da bu değiş
 
 ## Kurulum
 
-Depoyu indir ya da klonla, sonra:
+Depoyu klonla (ya da indir), sonra kurulum betiğini içinden çalıştır:
+
+```bash
+git clone https://github.com/buildyr/ctx-skill.git
+cd ctx-skill
+```
 
 **Windows (PowerShell):**
 ```powershell

@@ -44,6 +44,7 @@ PY
 
 suite() {
   local kind="$1" T; T="$(mktemp -d)"
+  command -v cygpath >/dev/null 2>&1 && T="$(cygpath -m "$T")"   # Git Bash: give Windows python / pwsh a path they can open
   echo "== install.$kind =="
   export HOME="$T" USERPROFILE="$T"; unset CLAUDE_CONFIG_DIR
   local S="$T/.claude/settings.json"

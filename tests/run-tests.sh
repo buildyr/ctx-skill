@@ -44,6 +44,7 @@ PY
 run_suite() {
   local impl="$1"
   local T; T="$(mktemp -d)"
+  command -v cygpath >/dev/null 2>&1 && T="$(cygpath -m "$T")"   # Git Bash: give Windows python / pwsh a path they can open
   export CTX_HOME="$T/ctxhome" NO_COLOR=1
   unset CLAUDE_PROJECT_DIR
   local P="$T/work/klarhim"; mkdir -p "$P"

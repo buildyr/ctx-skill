@@ -2,6 +2,9 @@
 
 **English** · [Türkçe](README.tr.md)
 
+![ctx demo: the fill warning, the handoff and the new context opening with ctx-004 loaded](docs/demo.gif)
+<sub>Illustrative animation based on ctx's real messages, not a screen recording.</sub>
+
 Long Claude Code sessions get expensive, and their quality drops toward the end. **ctx** asks you, once the context reaches a fill level you choose, whether to archive the session as a short numbered summary and continue in a clean context that starts from it. You can look back at earlier contexts, search them, pull selected information into the current session, and merge or tidy them. Nothing is ever deleted without your approval.
 
 - **Per project:** each project keeps its own `ctx-001`, `ctx-002`… archive; another project's context is never loaded.

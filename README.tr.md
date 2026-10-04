@@ -2,6 +2,9 @@
 
 [English](README.md) · **Türkçe**
 
+![ctx demosu: doluluk uyarısı, devir ve ctx-004 yüklenmiş yeni context](docs/demo.gif)
+<sub>ctx'in gerçek mesajlarına dayanan canlandırma; ekran kaydı değildir.</sub>
+
 Uzun Claude Code oturumları hem pahalıdır hem de sonlara doğru kalitesi düşer. **ctx**, context belirlediğin doluluğa ulaşınca sana sorar: oturumu kısa ve numaralı bir özet olarak arşivleyip temiz bir context'te o özetle devam edelim mi? Eski context'lere bakabilir, içlerinde arama yapabilir, seçtiğin bilgiyi mevcut oturuma çekebilir, onları birleştirip sadeleştirebilirsin. Onayın olmadan hiçbir şey silinmez.
 
 - **Proje bazlı:** her proje kendi `ctx-001`, `ctx-002`… arşivini tutar; başka projenin context'i hiç yüklenmez.

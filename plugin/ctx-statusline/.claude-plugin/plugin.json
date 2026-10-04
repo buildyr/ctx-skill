@@ -1,0 +1,7 @@
+{
+  "name": "ctx-statusline",
+  "version": "0.1.0",
+  "description": "Shows the ctx project name and context fill % as a status line entry where Claude Code has no status line of its own (the desktop app).",
+  "author": { "name": "Buildyr" },
+  "license": "MIT"
+}
